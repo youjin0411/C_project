@@ -4,6 +4,7 @@
 int solution(int price, char *grade)
 {
     int answer = 0;
+
     if (grade == "S")
     {
         answer = price - (price * 0.05);
