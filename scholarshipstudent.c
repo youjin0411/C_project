@@ -57,5 +57,5 @@ int main()
     int last_grade_len = 6;
     int ret = solution(current_grade, current_grade_len, last_grade, last_grade_len);
 
-    printf("solution 함수의 반환 값은 %d 입니다.\n", ret);
+    printf("solution 함수 반환 값은 %d 입니다.\n", ret);
 }
