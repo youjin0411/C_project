@@ -7,7 +7,7 @@ int solution(int arr[], int arr_len)
     int answer = 0;
     for (int i = 0; i < arr_len; i++)
         for (int j = 0; j < arr_len; j++)
-            if (arr[i] % 2 == 0 && arr[i] / 2 == arr[j])
+            if (arr[i] % 2 == 0 && arr[i] / 2 == arr[j]) // j를 비교하는 이유는 : 배열의 모든 숫자에서 찾기 위해서
             {
                 answer++;
                 break;
